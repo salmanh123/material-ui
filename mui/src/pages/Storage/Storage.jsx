@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Storage = () => {
+export const Storage = () => {
   return (
-    <div>Storage</div>
+    <div style={{marginLeft: '500px'}}>Storage</div>
   )
 }
 

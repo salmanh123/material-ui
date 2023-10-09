@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Hosting = () => {
+export const Hosting = () => {
   return (
-    <div>Hosting</div>
+    <div style={{marginLeft: '500px'}}>Hosting</div>
   )
 }
 

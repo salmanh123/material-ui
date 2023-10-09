@@ -1,9 +1,23 @@
 import React from 'react'
+import Grid from '@mui/material/Grid'
+import CommonButton from '../../components/CommonButton/CommonButton'
+export const Authentication = () => {
 
-const Authentication = () => {
   return (
-    <div>Authentication</div>
-  )
+    <Grid item xs={8}>
+        This is authentication page.
+        <CommonButton
+            variant="contained"
+        >
+            Add user
+        </CommonButton>
+        <CommonButton
+            variant="outlined"
+        >
+            Web setup
+        </CommonButton>
+    </Grid>
+)
 }
 
 export default Authentication

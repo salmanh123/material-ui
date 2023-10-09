@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Database = () => {
+export const Database = () => {
   return (
-    <div>Database</div>
+    <div style={{marginLeft: '500px'}}>Database</div>
   )
 }
 

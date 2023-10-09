@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Functions = () => {
+export const Functions = () => {
   return (
-    <div>Functions</div>
+    <div style={{marginLeft: '500px'}}>Functions</div>
   )
 }
 

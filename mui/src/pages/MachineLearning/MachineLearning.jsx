@@ -1,8 +1,8 @@
 import React from 'react'
 
-const MachineLearning = () => {
+export const MachineLearning = () => {
   return (
-    <div>MachineLearning</div>
+    <div style={{marginLeft: '500px'}}>MachineLearning</div>
   )
 }
 
